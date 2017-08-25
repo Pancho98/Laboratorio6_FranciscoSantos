@@ -3,7 +3,7 @@ package laboratorio6;
 
 
 public class Carretera {
-    private int carretera;
+    private int codigo;
     private double distancia;
     private String Inicio;
     private String Final;
@@ -11,19 +11,19 @@ public class Carretera {
     public Carretera() {
     }
 
-    public Carretera(int carretera, double distancia, String Inicio, String Final) {
-        this.carretera = carretera;
+    public Carretera(int codigo, double distancia, String Inicio, String Final) {
+        this.codigo = codigo;
         this.distancia = distancia;
         this.Inicio = Inicio;
         this.Final = Final;
     }
 
-    public int getCarretera() {
-        return carretera;
+    public int getCodigo() {
+        return codigo;
     }
 
-    public void setCarretera(int carretera) {
-        this.carretera = carretera;
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
     }
 
     public double getDistancia() {
@@ -52,7 +52,7 @@ public class Carretera {
 
     @Override
     public String toString() {
-        return "Carretera{" + "carretera=" + carretera + ", distancia=" + distancia + ", Inicio=" + Inicio + ", Final=" + Final + '}';
+        return "Carretera{" + "codigo=" + codigo + ", distancia=" + distancia + ", Inicio=" + Inicio + ", Final=" + Final + '}';
     }
     
     
